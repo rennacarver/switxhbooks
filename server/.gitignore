@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Secrets — DB path now, Plaid/PayPal keys later
+.env
+.env.*
+!.env.example
+
+# SQLite database and its WAL/shared-memory side files
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
