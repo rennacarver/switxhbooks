@@ -58,7 +58,7 @@ switxhbooks/
 - [x] Fix `server/tsconfig.json` (`types: ["node"]`, `rootDir`, `outDir`)
 - [ ] Add `"typecheck": "tsc --noEmit"` to `server/package.json`
 - [x] **Step A: `server/src/db.ts`**, in 5 pieces (below)
-- [ ] **Step B: `server/src/index.ts`**, with the health route and graceful shutdown
+- [x] **Step B: `server/src/index.ts`**, with the health route and graceful shutdown
 - [ ] `server/.env.example`
 - [ ] Root `package.json` with `concurrently`, plus a root `.gitignore`
 - [ ] Clean out the Vite template; `App.tsx` shows `/api/health`
