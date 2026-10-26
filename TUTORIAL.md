@@ -6,6 +6,8 @@ A guided build of a personal QuickBooks replacement, done to learn databases. Yo
 
 **How each step works:** read the concept, do the task, run the check, then answer the questions in chat. Ask for a hint any time you're stuck.
 
+**Ground rule:** if a piece of code would need a Google search to know how to write it (library APIs, import syntax, Node built-ins, config), Claude gives you the code and explains it. You write the parts that follow from the concepts: SQL, query logic, and design decisions.
+
 ---
 
 ## Lessons
@@ -55,7 +57,7 @@ switxhbooks/
 - [x] `server/.env` with `DB_PATH="./data/books.db"`
 - [x] Fix `server/tsconfig.json` (`types: ["node"]`, `rootDir`, `outDir`)
 - [ ] Add `"typecheck": "tsc --noEmit"` to `server/package.json`
-- [ ] **Step A: `server/src/db.ts`**, in 5 pieces (below)
+- [x] **Step A: `server/src/db.ts`**, in 5 pieces (below)
 - [ ] **Step B: `server/src/index.ts`**, with the health route and graceful shutdown
 - [ ] `server/.env.example`
 - [ ] Root `package.json` with `concurrently`, plus a root `.gitignore`
